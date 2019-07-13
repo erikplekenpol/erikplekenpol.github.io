@@ -1,0 +1,25 @@
+# Basic Jekyll Template Settings
+title:              Fresh Beats, Massive Relaxation!
+email:              erik@plekenpol.net
+description:        A Herrie.Band Website.
+author:             Erik Plekenpol & Monique te Giffel
+baseurl:            "/"
+url:                "https://herrie.band"
+
+# Social Profiles
+twitter_username:
+github_username:
+facebook_username:
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+#google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
